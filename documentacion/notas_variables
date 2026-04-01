@@ -1,0 +1,9 @@
+String y Integer son tipos de datos en programación.
+String se utiliza para representar texto, mientras que Integer se utiliza para representar números enteros.
+Por ejemplo, si queremos almacenar el nombre de una persona, usaríamos una variable de tipo String, como:
+String nombre = "Juan";
+Si queremos almacenar la edad de una persona, usaríamos una variable de tipo Integer, como:
+Integer edad = 30;
+La diferencia principal entre String e Integer es que String puede contener cualquier combinación de caracteres, mientras que Integer solo puede contener números enteros.
+Otra diferencia entre los primitivos es que tiene diferentes metodos y operaciones disponibles. Por ejemplo, con String podemos concatenar dos cadenas de texto utilizando el operador +, mientras que con Integer podemos realizar operaciones matemáticas como suma, resta, multiplicación y división.
+

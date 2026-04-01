@@ -1,4 +1,4 @@
-package helloworld;
+package seccion01_introduccion;
 
 public class HelloWorld {
 
