@@ -22,8 +22,5 @@ public class EjemploString
         // ve que "Programación Java" ya existe y le asigna la misma referencia que a 'curso'.
         // Por eso (curso == curso3) es true: comparten la misma ubicación física.
 
-
-
     }
-
 }
