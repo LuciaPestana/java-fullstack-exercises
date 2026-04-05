@@ -14,6 +14,9 @@ public class ConversionDeTipos {
         String logicoStr = "true";
         boolean logicoBoolean = Boolean.parseBoolean(logicoStr);
         System.out.println("logicoBoolean = " + logicoBoolean);
+        /*********
+        * Conversiones de primitivos a String
+         **********/
 
         int otroNumeroInt = 100;
         System.out.println("otroNumeroInt = " + otroNumeroInt);
@@ -34,10 +37,34 @@ public class ConversionDeTipos {
         otroRealStr = String.valueOf(otroRealDouble);
         System.out.println("otroRealStr = " + otroRealStr);
 
+/************************************************************************
+* ------------------Conversiones entre primitivos -----------------------
+ ***********************************************************************/
+
+  int i = 12768;
+  short s = (short) i; //(short) es un casteo
+        // Sale error porque hay perdida de datos al ser menor por lo que se necesita un casteo explicito
+        // es decir, forzar la conversion, pero al hacer esto se pierde información y el resultado no es el esperado,
+        // por lo que se debe tener cuidado al hacer este tipo de conversiones
+        System.out.println("s = " + s);
+  long l = i;
+        System.out.println("l = " + l);
+        System.out.println(Short.MAX_VALUE);
+
+        //Veamos ahora si se puede cambiar a un char o float
+
+        char b = (char) i;
+        System.out.println("b = " + b);
+        float f = (float) i;
+        System.out.println("f = " + f);
+
+
+
+
+
 
 
     }
-
 
 
 }
