@@ -1,8 +1,8 @@
 package tareas;
 
 import java.util.Scanner;
-import java.util.Arrays;
-public class ProgramaManejoDeNombres {
+
+public class ProgramaManejoDeNombresConScanner {
 
     public static void main(String[] args) {
 
