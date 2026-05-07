@@ -3,21 +3,34 @@ package seccion06_clasesWrapper;
 public class WrapperInteger {
     public static void main(String[] args) {
 
-        int enteroPrimitivo = 10;
-        Integer enteroWrapper = Integer.valueOf(enteroPrimitivo);
+      int IntPrimitivo = 32767;
+     Integer intObjeto = Integer.valueOf(IntPrimitivo);
+     Integer intObjeto2 = IntPrimitivo;
 
-        System.out.println("enteroPrimitivo = " + enteroPrimitivo);
-        System.out.println("enteroWrapper = " + enteroWrapper);
+        System.out.println("intObjeto = " + intObjeto);
 
-        int otroEnteroPrimitivo = enteroWrapper.intValue();
-        System.out.println("otroEnteroPrimitivo = " + otroEnteroPrimitivo);
+        int num = intObjeto;
 
-        // Autoboxing
-        Integer autoboxingInteger = enteroPrimitivo; // Se convierte automáticamente a Integer
-        System.out.println("autoboxingInteger = " + autoboxingInteger);
+        System.out.println("num = " + num);
 
-        // Unboxing
-        int unboxingInt = autoboxingInteger; // Se convierte automáticamente a int
-        System.out.println("unboxingInt = " + unboxingInt);
+        int num2 = intObjeto.intValue();
+
+        System.out.println("num2 = " + num2);
+
+        String valorTvLcd = "6700";
+
+        Integer valor = Integer.valueOf(valorTvLcd);
+        System.out.println("valor = " + valor);
+
+        Short shortObjeto = intObjeto.shortValue();
+        System.out.println("shortObjeto = " + shortObjeto);
+
+
+        Byte byteObjeto = intObjeto.byteValue();
+        System.out.println("byteObjeto = " + byteObjeto);
+
+        Long longBojeto = intObjeto.longValue();
+        System.out.println("longBojeto = " + longBojeto);
+
     }
 }
