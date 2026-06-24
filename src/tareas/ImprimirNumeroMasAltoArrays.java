@@ -17,9 +17,6 @@ public class ImprimirNumeroMasAltoArrays {
                 System.out.println("El numero ingresado no esta en el rango permitido");
                 i--;
             }
-
-
-
         }
         int numeroMasAlto = numeros[0];
         for (int i = 1; i < numeros.length; i++){
@@ -29,8 +26,6 @@ public class ImprimirNumeroMasAltoArrays {
             numeroMasAlto = numeros[i];
         }
         }
-
         System.out.println("El numero mas alto es: " + numeroMasAlto);
-
     }
 }
