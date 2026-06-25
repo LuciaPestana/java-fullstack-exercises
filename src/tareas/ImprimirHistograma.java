@@ -31,11 +31,5 @@ public class ImprimirHistograma {
             System.out.println((numerosDelHistograma[i]) + " : " + "*".repeat(contador));
 
         }
-
-
-
     }
-
-
-
 }
