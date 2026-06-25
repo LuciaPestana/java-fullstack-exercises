@@ -8,15 +8,29 @@ public class Automovil {
     double cilindrada;
 
     public String detalle() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("El fabricante del automovil es = " + this.fabricante);
-        sb.append("\nEl modelo es = " + this.modelo);
-        sb.append("\nEl color es = " + color);
-        sb.append("\nLa cilindrada del auto es = " + cilindrada);
-        return sb.toString();
+        return "El fabricante del automovil es = " + this.fabricante +
+                "\nEl modelo es = " + this.modelo +
+                "\nEl color es = " + color +
+                "\nLa cilindrada del auto es = " + cilindrada;
 
     }
 
+    public String acelerar(int rpm) {
+        return "El auto " + this.fabricante + " acelerando a " + rpm + " rpm";
+    }
+    public String frenar(){
+        return this.fabricante + " " + this.modelo + " frenando!";
 
+    }
+    public String acelerarFrenar(int rpm){
+        String acelerar = this.acelerar(rpm);
+        String frenar = this.frenar();
+        return acelerar + "\n" + frenar;
+
+
+
+    }
 
 }
+
+
