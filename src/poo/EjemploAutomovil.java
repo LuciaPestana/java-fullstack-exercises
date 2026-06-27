@@ -35,7 +35,9 @@ public class EjemploAutomovil {
 
         System.out.println(mazda.acelerarFrenar(5000));
 
+        System.out.println(" kilometraje por libros = " + subaru.calcularConsumo(300, 0.75f));
 
+        System.out.println(" kilometraje por libros = " + subaru.calcularConsumo(300, 75));
 
 
     }
