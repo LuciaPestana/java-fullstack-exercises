@@ -7,18 +7,18 @@ public class EjemploAutomovil {
 
         Automovil subaru = new Automovil();
 
-        subaru.fabricante = "Subaro";
-        subaru.modelo = "Impreza";
-        subaru.color= "blanco";
-        subaru.cilindrada = 2.0;
+        subaru.setFabricante("Subaro");
+        subaru.setModelo("Impreza");
+        subaru.setColor("blanco");
+        subaru.setCilindrada(2.0);
 
 
 
         Automovil mazda = new Automovil();
-        mazda.fabricante = "Toyota";
-        mazda.modelo = "Corolla";
-        mazda.color = "Azul";
-        mazda.cilindrada = 3.0;
+        mazda.setFabricante("Toyota");
+        mazda.setModelo("Corolla");
+        mazda.setColor("Azul");
+        mazda.setCilindrada(3.0);
         System.out.println();
 
         System.out.println(subaru.detalle());
