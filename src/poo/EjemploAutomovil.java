@@ -7,10 +7,10 @@ public class EjemploAutomovil {
     public static void main(String[] args) {
 
             Date fecha = new Date();
-            Automovil subaru = new Automovil( "Subaro", "Impreza", "blanco", 2.0, 50);
-            Automovil mazda = new Automovil( "Mazda", "BT-50", "Rojo", 3.0, 60);
-            Automovil nissan = new Automovil("Nissan", "Navara", "Gris", 3.5, 70);
-            Automovil nissan2 = new Automovil("Nissan", "Navara", "Gris", 3.5, 70);
+            Automovil subaru = new Automovil( "Subaro", "Impreza", Automovil.COLOR_GRIS, 2.0, 50);
+            Automovil mazda = new Automovil( "Mazda", "BT-50", Automovil.COLOR_ROJO, 3.0, 60);
+            Automovil nissan = new Automovil("Nissan", "Navara", Automovil.COLOR_AZUL, 3.5, 70);
+            Automovil nissan2 = new Automovil("Nissan", "Navara", Automovil.COLOR_BLANCO, 3.5, 70);
             Automovil auto = new Automovil();
         System.out.println(auto.equals(fecha));
 

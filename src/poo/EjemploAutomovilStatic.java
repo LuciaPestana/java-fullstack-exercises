@@ -16,7 +16,7 @@ public class EjemploAutomovilStatic {
             Automovil.setColorPatente("Verde");
             Automovil.setCapacidadEstanqueEstatico(45);
         System.out.println("Automovil.getColorPatente()); = " + Automovil.getColorPatente());
-
+      
         System.out.println(nissan.detalle());
         System.out.println(nissan.toString());
 
@@ -29,7 +29,8 @@ public class EjemploAutomovilStatic {
         System.out.println("Automovil.calcularConsumoEstatico(300, 75)); = " + Automovil.calcularConsumoEstatico(300, 75));
 
 
-
+        System.out.println("Automovil.VELOCIDAD_MAXIMA_CIUDAD = " + Automovil.VELOCIDAD_MAXIMA_CIUDAD);
+        System.out.println("Automovil.VELOCIDAD_MAXIMA_CARRETERA = " + Automovil.VELOCIDAD_MAXIMA_CARRETERA);
 
     }
 

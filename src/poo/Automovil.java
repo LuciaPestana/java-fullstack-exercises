@@ -13,6 +13,18 @@ public class Automovil {
     private static String colorPatente = "Naranja";
     private static int capacidadEstanqueEstatico=30;
 
+
+    public static final Integer VELOCIDAD_MAXIMA_CARRETERA = 120;
+    public static final int VELOCIDAD_MAXIMA_CIUDAD = 60;
+
+    public static final String COLOR_ROJO = "Rojo";
+    public static final String COLOR_BLANCO = "Blanco";
+    public static final String COLOR_AZUL = "Azul";
+    public static final String  COLOR_GRIS = "Gris";
+    public static final String COLOR_AMARILLO = "Amarillo";
+
+
+
     public Automovil() {
         this.id = ++ultimoId;
     }
